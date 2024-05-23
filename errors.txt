@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 27: expected statement.
+    sccene bg_night
+                   ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Thu May 23 10:13:07 2024

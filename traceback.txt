@@ -1,0 +1,20 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/yuna/Desktop/operating system report/game/saves/navigation.json.new' -> '/Users/yuna/Desktop/operating system report/game/saves/navigation.json'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Volumes/renpy-8.2.1-sdk/renpy-8.2.1-sdk/renpy/bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "/Volumes/renpy-8.2.1-sdk/renpy-8.2.1-sdk/renpy/main.py", line 582, in main
+    renpy.dump.dump(False)
+  File "/Volumes/renpy-8.2.1-sdk/renpy-8.2.1-sdk/renpy/dump.py", line 262, in dump
+    os.rename(new, filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/yuna/Desktop/operating system report/game/saves/navigation.json.new' -> '/Users/yuna/Desktop/operating system report/game/saves/navigation.json'
+
+macOS-12.5.1-arm64-arm-64bit arm64
+Ren'Py 8.2.1.24030407
+operating system report 1.0
+Thu May 23 11:16:54 2024
